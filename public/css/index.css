@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  background: #2a2a2a;
+  color: #fff;
+}
+
+body h1 {
+  user-select: none;
+  font-size: 2.4rem;
+}
+
+.auth-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.auth-links a {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.auth-links a:hover {
+  color: #236cc0;
+  font-weight: 600;
+}
+
+.pfp {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-block: 1rem;
+}
